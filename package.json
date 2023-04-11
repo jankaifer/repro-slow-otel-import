@@ -7,11 +7,17 @@
     "start:otel-verbose": "NEXT_OTEL_VERBOSE=1 next start"
   },
   "dependencies": {
-    "@vercel/otel": "latest",
     "@opentelemetry/api": "^1.4.1",
+    "@opentelemetry/exporter-trace-otlp-http": "^0.37.0",
+    "@opentelemetry/resources": "^1.11.0",
+    "@opentelemetry/sdk-trace-node": "^1.11.0",
+    "@opentelemetry/semantic-conventions": "^1.11.0",
+    "@vercel/og": "^0.5.1",
+    "@vercel/otel": "latest",
     "next": "latest",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "require-so-slow": "^2.0.5"
   },
   "devDependencies": {
     "@types/node": "18.7.11",
